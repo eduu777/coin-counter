@@ -1,0 +1,11 @@
+path: ./
+train: ./datasets/moedas/train
+val: ./datasets/moedas/val
+test:
+
+names:
+  0: 5_cent
+  1: 10_cent
+  2: 25_cent
+  3: 50_cent
+  4: 1_real
