@@ -7,7 +7,7 @@ from ultralytics import YOLO
 webcam = cv2.VideoCapture(0)
 
 #model = YOLO('yolov8n.pt')
-model = YOLO("runs/detect/train11/weights/best.pt")
+model = YOLO("weights/best.pt")
 
 valores = {
     0: 0.05,

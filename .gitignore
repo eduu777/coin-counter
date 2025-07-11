@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Model files (YOLO weights, large files)
+*.pt
+!best.pt
+
+# Runs files
+runs/
+
+# Datasets files
+datasets/
